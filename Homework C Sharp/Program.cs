@@ -21,9 +21,6 @@ namespace  Homework_C_Sharp
             
             //BootstrapCrystalStore bootstrapCrystalStore = new ();
             //bootstrapCrystalStore.Run();
-            
-            //BootstrapPolyclinic bootstrapPolyclinic = new ();
-            //bootstrapPolyclinic.Run();
         }
     }
 }
