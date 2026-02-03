@@ -4,6 +4,16 @@ public class BootstrapPolyclinic
 {
     public void Run()
     {
-        Console.Write("Enter a string: ");
+        const int receptionTime = 10;
+        const int minutesInHour = 60;
+
+        Console.Write("Введите кол-во пациентов: ");
+        int numberOfPatients = Convert.ToInt32(Console.ReadLine());
+        
+        int waitingTime = numberOfPatients * receptionTime;
+        int waitingTimeHours = waitingTime / minutesInHour;
+        int waitingTimeMinutes = waitingTime % minutesInHour;
+
+        Console.WriteLine($"Вы должны отстоять в очереди {waitingTimeHours} часа(ов) и {waitingTimeMinutes} минут.");
     }
 }

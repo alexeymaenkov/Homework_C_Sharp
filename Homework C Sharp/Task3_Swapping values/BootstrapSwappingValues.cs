@@ -4,6 +4,16 @@ public class BootstrapSwappingValues
 {
     public void Run()
     {
-        Console.Write("Enter a string: ");
+        string name = "Maenkov";
+        string surname = "Alex";
+
+        Console.WriteLine($"Ваше имя: {name}.\nВаша фамилия: {surname}.");
+
+        string temporaryStorage = name;
+        
+        name = surname;
+        surname = temporaryStorage;
+        
+        Console.WriteLine($"\nВаше имя: {name}.\nВаша фамилия: {surname}.");
     }
 }
