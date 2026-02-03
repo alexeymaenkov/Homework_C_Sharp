@@ -10,8 +10,8 @@ namespace  Homework_C_Sharp
     {
         static void Main(string[] args)
         {
-            BootstrapWorkingWithString bootstrapWorkingWithString = new ();
-            bootstrapWorkingWithString.Run();
+            //BootstrapWorkingWithString bootstrapWorkingWithString = new ();
+            //bootstrapWorkingWithString.Run();
             
             //BootstrapPictures bootstrapPictures = new ();
             //bootstrapPictures.Run();
@@ -21,6 +21,9 @@ namespace  Homework_C_Sharp
             
             //BootstrapCrystalStore bootstrapCrystalStore = new ();
             //bootstrapCrystalStore.Run();
+            
+            //BootstrapPolyclinic bootstrapPolyclinic = new ();
+            //bootstrapPolyclinic.Run();
         }
     }
 }
