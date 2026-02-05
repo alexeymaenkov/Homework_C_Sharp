@@ -6,19 +6,17 @@ public class BootstrapWorkingWithString
 {
     public void Run()
     {
-        string name;
-        string age;
-        string zodiac;
-        string work;
-
         Console.Write("Введите ваше Имя: ");
-        name = Console.ReadLine();
+        string name = Console.ReadLine();
+        
         Console.Write("Введите ваш возраст: ");
-        age = Console.ReadLine();
+        string age = Console.ReadLine();
+        
         Console.Write("Введите ваше знак зодиака: ");
-        zodiac = Console.ReadLine();
+        string zodiac = Console.ReadLine();
+        
         Console.Write("Введите место вашей работы: ");
-        work = Console.ReadLine();
+        string work = Console.ReadLine();
 
         Console.WriteLine($"Вас зовут: {name}, ваш возраст: {age}, ваш знак зодиака: {zodiac}, место вашей работы: {work}.");
     }

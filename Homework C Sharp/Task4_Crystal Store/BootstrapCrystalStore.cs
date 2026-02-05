@@ -4,16 +4,16 @@ public class BootstrapCrystalStore
 {
     public void Run()
     {
-        const int costOneCrystal = 5;
+        const int cost_one_crystal = 5;
         
         Console.Write("Введите начальное количество золота: ");
         int userGold = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write($"Стоимость одного кристалла: {costOneCrystal}.\nСколько кристаллов вы хотите купить? ");
-        int userCrystal = Convert.ToInt32(Console.ReadLine());
+        Console.Write($"Стоимость одного кристалла: {cost_one_crystal}.\nСколько кристаллов вы хотите купить? ");
+        int crystals = Convert.ToInt32(Console.ReadLine());
 
-        userGold -= userCrystal * costOneCrystal;
+        userGold -= crystals * cost_one_crystal;
 
-        Console.WriteLine($"Вы купили {userCrystal} кристаллов. У вас осталось {userGold} золота.");
+        Console.WriteLine($"Вы купили {crystals} кристаллов. У вас осталось {userGold} золота.");
     }
 }

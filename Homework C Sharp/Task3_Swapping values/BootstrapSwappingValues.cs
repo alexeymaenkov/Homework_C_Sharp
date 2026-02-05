@@ -9,10 +9,10 @@ public class BootstrapSwappingValues
 
         Console.WriteLine($"Ваше имя: {name}.\nВаша фамилия: {surname}.");
 
-        string temporaryStorage = name;
+        string tempStorage = name;
         
         name = surname;
-        surname = temporaryStorage;
+        surname = tempStorage;
         
         Console.WriteLine($"\nВаше имя: {name}.\nВаша фамилия: {surname}.");
     }
