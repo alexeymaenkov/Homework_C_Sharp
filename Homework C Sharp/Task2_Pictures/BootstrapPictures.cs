@@ -4,12 +4,12 @@ public class BootstrapPictures
 {
     public void Run()
     {
-        const int pics_in_line = 3;
+        const int PICS_IN_LINE = 3;
 
         int picsCount = 52;
 
-        int linesCount = picsCount / pics_in_line;
-        int picsRemainder = picsCount % pics_in_line;
+        int linesCount = picsCount / PICS_IN_LINE;
+        int picsRemainder = picsCount % PICS_IN_LINE;
         
         Console.WriteLine($"Полностью заполненных рядов можно вывести: {linesCount}.");
         Console.WriteLine($"Картинок сверх меры: {picsRemainder}.");
